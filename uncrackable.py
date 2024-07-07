@@ -11,7 +11,7 @@ digit = 0
 
 for char in password:
     if char.islower():
-       lowercase += 1
+        lowercase += 1
     elif char.isupper():
         uppercase += 1
     elif char.isdigit():

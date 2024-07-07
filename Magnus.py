@@ -1,25 +1,3 @@
-# 1 <= N <= 100000
-honi_block = input()
-
-H_block = 0
-O_block = 0
-N_block = 0
-I_block = 0
-
-for i in honi_block:
-    if i == 'H':
-        H_block += 1
-    elif i == 'O':
-        O_block += 1
-    elif i == 'N':
-        N_block += 1
-    elif i == 'I':
-        I_block += 1
-
-
-count_honi = min(H_block, O_block, N_block, I_block)
-print(count_honi)
-
 
 honi_block = input()
 

@@ -12,8 +12,6 @@ total = 0
 
 for i in using_plan_months :
 
-
-
     total = monthly_megabytes +
     i *leftover_1st_month +
     i *leftover_2nd_month +

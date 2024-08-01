@@ -12,6 +12,8 @@ current_infected = N
 day = 0
 
 # while문을 사용하여 질병 확산 계산
+# 질병이 걸린 사람은 또 걸리지 않는다 = 질병을 옮긴 사람은 또 옮기지 않는다. 
+# 일자별 새로운 감염자를 의미하는 new_infected, 일자별 누적 감염자를 의미하는 total_infected, 새로운 감염자 계산을 위한 이전의 새로운 감염자는 current_infected
 while total_infected <= P:
     day += 1
     new_infected = current_infected * R
